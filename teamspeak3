@@ -1,3 +1,5 @@
+# /lib/systemd/system/ts3server.service
+
 [Unit]
 Description=TeamSpeak3 Server
 Wants=network-online.target
