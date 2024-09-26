@@ -1,6 +1,6 @@
-# /lib/systemd/system/ts3server
+### /lib/systemd/system/ts3server
 
-
+```
 [Unit]
 Description=TeamSpeak3 Server
 Wants=network-online.target
@@ -19,3 +19,4 @@ RestartSec=15
 
 [Install]
 WantedBy=multi-user.target
+```
